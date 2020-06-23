@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#nav-logo {
+  font-size: 20px;
+}
+
+.navbar-brand {
+  padding: 1.6rem;
+}
+
+.hero-cta {
+  text-align: left;
+  padding: 3rem;
+  margin-top: 2rem;
+}
+
+#hero-cta-text {
+  font-size: 45px;
+  line-height: 54px;
+  font-weight: 500;
+}
+.btn-center {
+  padding-top: 1rem;
+}
+
+.hero-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section-areas {
+  padding-top: 1.5rem;
+}
+.section-headers {
+  text-align: center;
+  padding: 2rem;
+  font-weight: bold;
+  color: #00255e;
+}
+
+.section-header-header {
+  text-align: center;
+  padding: 1rem;
+  color: #00255e;
+}
+
+.section-header-content {
+  line-height: 33px;
+  font-size: 18px;
+  color: #00255e;
+}
+
+.container-fluid {
+  background-color: #fdfeff;
+}
+
+.card {
+  margin: auto;
+}
