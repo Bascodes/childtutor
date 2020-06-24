@@ -15,6 +15,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   
     <script
       src="https://kit.fontawesome.com/2f2409cce1.js"
       crossorigin="anonymous"
@@ -24,7 +25,7 @@
 
   <header>
     <!-- Nav tabs -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color: #e3f2fd;">
       <a href="/" class="navbar-brand" id="nav-logo">childTutors</a>
       <button
         class="navbar-toggler"
@@ -38,18 +39,21 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto ">
           <li class="nav-item">
-            <a class="nav-link text-dark nav-logo" href="/resources"
+            <a class="nav-link text-dark nav-logo" href='#how it works' 
               >How it works</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark nav-logo" href="/directory">Pricing</a>
+            <a class="nav-link text-dark nav-logo" href='#pricing'>Pricing</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-dark nav-logo" href="/shop">Our tutors</a>
           </li>
+          
+          
+            
         </ul>
       </div>
     </nav>
@@ -62,11 +66,11 @@
         <div class="col-lg-6 hero-cta">
           <h2 id="hero-cta-text">
             Find <br />
-            quality private <br />
-            tutors for your ward
+            professional  <br />
+            home tutors 
           </h2>
           <div class="btn-center">
-            <button class="btn btn-lg btn-primary">GET STARTED</button>
+           <a href="/trialform">   <button class="btn btn-lg btn-primary">GET STARTED</button></a>
           </div>
         </div>
         <div class="col-lg-6">
@@ -79,35 +83,35 @@
       <section class="section-points">
         <h2 class="section-headers">Our approach</h2>
         <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="col-lg-4 col-md-4 col-sm-12 section-cards">
             <p class="section-header-content">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum
+              Encourage the child to have healthy curiousity
             </p>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="col-lg-4 col-md-4 col-sm-12 section-cards">
             <p class="section-header-content">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum
+              Stimulate the child's creativity in solving problems
             </p>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="col-lg-4 col-md-4 col-sm-12 section-cards">
             <p class="section-header-content">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum
+              Serve as exemplary models to the child
             </p>
           </div>
         </div>
       </section>
 
       <section class="section-points">
-        <h2 class="section-headers">How it works</h2>
+        <h2 class="section-headers" id='how it works'>How it works</h2>
         <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="col-lg-4 col-md-4 col-sm-12 section-cards">
             <h4 class="section-header-header">Request</h4>
             <p class="section-header-content">
               Fill out a request form. We will reach out to you within 48 hours
               to schedule a trial session
             </p>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="col-lg-4 col-md-4 col-sm-12 section-cards">
             <h4 class="section-header-header">Test for free</h4>
             <p class="section-header-content">
               The first session is free where our tutor meets with your
@@ -115,7 +119,7 @@
               mapped.
             </p>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="col-lg-4 col-md-4 col-sm-12 section-cards">
             <h4 class="section-header-header">Pick a convinient plan</h4>
             <p class="section-header-content">
               We offer basic and premium monthly plans. Choose a convinient plan
@@ -126,76 +130,187 @@
       </section>
 
       <section>
-        <h2 class="section-headers">Pricing</h2>
+        <h2 class="section-headers" id='pricing'>Pricing</h2>
 
         <div class="row">
           <div class="col-lg-4">
-            <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="..." />
+            <div class="card" style="width: 18rem;" data-aos="fade-right" data-aos-once="false" data-aos-delay="1000">
+              <h3 class="section-header-header">
+                Free Trial
+              </h3>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
+                <h5 class="card-title"><span>&#8358 0</span></h5>
+               
               </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">Cras justo odio</li>
-                <li class="list-group-item">Dapibus ac facilisis in</li>
-                <li class="list-group-item">Vestibulum at eros</li>
+                <li class="list-group-item section-header-content">Free 1 hr session</li>
+                <li class="list-group-item section-header-content">Teacher evaluates pupil's need </li>
+                <li class="list-group-item section-header-content">Lesson plan and schedule is mapped </li>
               </ul>
               <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
+                <div class="btn-center">
+                  <button class="btn btn-sm btn-primary">START FREE TRIAL</button>
+                </div>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4">
-            <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="..." />
+            <div class="card" style="width: 18rem;" data-aos="fade-down" data-aos-once="false" data-aos-delay="1500">
+              <h3 class="section-header-header">
+                Basic Plan
+              </h3>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
+                <h5 class="card-title"><span>&#8358 500 per hour</span></h5>
+               
               </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">Cras justo odio</li>
-                <li class="list-group-item">Dapibus ac facilisis in</li>
-                <li class="list-group-item">Vestibulum at eros</li>
+                <li class="list-group-item section-header-content">Minimum of 20 hours in a month</li>
+                <li class="list-group-item section-header-content">Reading techniques</li>
+                <li class="list-group-item section-header-content">Mental sums</li>
+                <li class="list-group-item section-header-content">Weekly quiz</li>
               </ul>
+
               <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
+                <div class="btn-center">
+                  <button class="btn btn-sm btn-primary">SELECT BASIC PLAN</button>
+                </div>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4">
-            <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="..." />
+            <div class="card" style="width: 18rem;" data-aos="fade-left" data-aos-once="false" data-aos-delay="2000">
+              <h3 class="section-header-header">
+                Premium Plan
+              </h3>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
+                <h5 class="card-title"><span>&#8358 1000 per hour</span></h5>
+               
               </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">Cras justo odio</li>
-                <li class="list-group-item">Dapibus ac facilisis in</li>
-                <li class="list-group-item">Vestibulum at eros</li>
+                <li class="list-group-item section-header-content">+ Basic Plan</li>
+                <li class="list-group-item section-header-content">Phonetics blend</li>
+                <li class="list-group-item section-header-content">British Education Standards</li>
+                <li class="list-group-item section-header-content">Aceess to our e-learning platform</li>
               </ul>
               <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
+                <div class="btn-center">
+                  <button class="btn btn-sm btn-primary">SELECT PREMIUM PLAN</button>
+                </div>
               </div>
             </div>
+          </div>
+      </section>
+
+      <section class="section-points">
+        <h2 class="section-headers">FAQs</h2>
+        <div class= 'row'>
+          <div class='col-lg-6 col-md-6 col-sm-12 section-cards'>
+            <h5>
+              Can i request for more hours per month?
+            </h5>
+            <p>
+              Yes, you can. Extra hours still go for the same rate
+            </p>
+          </div>
+
+          <div class='col-lg-6 col-md-6 col-sm-12 section-cards'>
+            <h5>
+              Can i request for more hours per month?
+            </h5>
+            <p>
+              Yes, you can. Extra hours still go for the same rate
+            </p>
           </div>
         </div>
+
+        <div class= 'row'>
+          <div class='col-lg-6 col-md-6 col-sm-12 section-cards'>
+            <h5>
+              Can i request for more hours per month?
+            </h5>
+            <p>
+              Yes, you can. Extra hours still go for the same rate
+            </p>
+          </div>
+
+          <div class='col-lg-6 col-md-6 col-sm-12 section-cards'>
+            <h5>
+              Can i request for more hours per month?
+            </h5>
+            <p>
+              Yes, you can. Extra hours still go for the same rate
+            </p>
+          </div>
+        </div>
+
+        <div class= 'row'>
+          <div class='col-lg-6 col-md-6 col-sm-12 section-cards'>
+            <h5>
+              Can i request for more hours per month?
+            </h5>
+            <p>
+              Yes, you can. Extra hours still go for the same rate
+            </p>
+          </div>
+
+          <div class='col-lg-6 col-md-6 col-sm-12 section-cards'>
+            <h5>
+              Can i request for more hours per month?
+            </h5>
+            <p>
+              Yes, you can. Extra hours still go for the same rate
+            </p>
+          </div>
+        </div>
+
       </section>
+
+      <footer>
+        <div class="row">
+          
+        
+          <div class="col-lg-4 col-md-12 col-sm-12 footer-body">
+  
+            <h4 class="section-header-header" id='footer-headers'>
+                childTutors
+              </h4>
+              <p class='section-header-content' id='footer-body'>
+               childTutors is an online platform that connects parents with seasoned tutors
+              </p>
+           
+          </div>
+  
+           
+        
+          <div class="col-lg-4 col-md-4 col-sm-4 footer-body">
+  
+            <h4 class="section-header-header" id='footer-headers'>
+              Newsletter
+            </h4>          
+              <form action="/" method='POST'>
+              <input type="text" name="" value="" placeholder="Email address">
+              
+                <button type="button" class="btn btn-sm btn-light">Submit</button>
+              
+            </form>
+          
+        </div>
+  
+        <div class="col-lg-4 col-md-4 col-sm-4 footer-body">
+  
+          <h4 class="section-header-header" id='footer-headers'>
+           Connect with us
+          </h4>
+          <div class="footer-items">
+            <i class="fab-fa-facebook"></i>
+            <i class="fab-fa-instagram"></i>
+            <i class="fab-fa-twitter"></i>
+          </div>
+        </div>
+        </div>
+      </footer>
     </div>
 
     <script
@@ -214,5 +329,8 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

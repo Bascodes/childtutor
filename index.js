@@ -8,6 +8,10 @@ app.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html");
 });
 
+app.get("/trialform", (req, res) => {
+  res.sendFile(__dirname + "/trialform.html");
+});
+
 app.listen(3000, () => {
   console.log("server started succesfully");
 });
