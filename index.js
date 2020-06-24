@@ -12,6 +12,12 @@ app.get("/trialform", (req, res) => {
   res.sendFile(__dirname + "/trialform.html");
 });
 
-app.listen(3000, () => {
-  console.log("server started succesfully");
+let port = process.env.PORT;
+
+if (port == null || port == "") {
+  port = 3000;
+}
+
+app.listen(port, () => {
+  console.log("server is running successfully!");
 });
