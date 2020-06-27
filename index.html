@@ -9,21 +9,19 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="icon/favicon.ico" rel="icon" type="image/x-icon" />
    
-    <script
-      src="https://kit.fontawesome.com/2f2409cce1.js"
-      crossorigin="anonymous"
-    ></script>
+    
     <title>Child tutors</title>
   </head>
 
-  <header>
+  <header class='container-fluid'>
     <!-- Nav tabs -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color: #e3f2fd;">
       <a href="/" class="navbar-brand" id="nav-logo">childTutors</a>
@@ -60,10 +58,10 @@
   </header>
 
   <body>
-    <!--hero section-->
-    <section class="section-areas">
+    <!--landing-page-->
+    <section class="section-areas container-fluid">
       <div class="row">
-        <div class="col-lg-6 hero-cta">
+        <div class="col-lg-6  col-md-6 hero-cta">
           <h2 id="hero-cta-text">
             Find <br />
             professional  <br />
@@ -73,13 +71,56 @@
            <a href="/trialform">   <button class="btn btn-lg btn-primary">GET STARTED</button></a>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6">
           <img src="images/tutor.jpg" alt="" class="hero-img" />
         </div>
       </div>
     </section>
 
     <div class="container-fluid">
+
+      <!--section:How it works-->
+      <section class="section-points">
+        <h2 class="section-headers" id='how it works'>How it works</h2>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 section-cards">
+            <svg class="bi bi-hand-index" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M6.75 1a.75.75 0 0 0-.75.75V9a.5.5 0 0 1-1 0v-.89l-1.003.2a.5.5 0 0 0-.399.546l.345 3.105a1.5 1.5 0 0 0 .243.666l1.433 2.15a.5.5 0 0 0 .416.223h6.385a.5.5 0 0 0 .434-.252l1.395-2.442a2.5 2.5 0 0 0 .317-.991l.272-2.715a1 1 0 0 0-.995-1.1H13.5v1a.5.5 0 0 1-1 0V7.154a4.208 4.208 0 0 0-.2-.26c-.187-.222-.368-.383-.486-.43-.124-.05-.392-.063-.708-.039a4.844 4.844 0 0 0-.106.01V8a.5.5 0 0 1-1 0V5.986c0-.167-.073-.272-.15-.314a1.657 1.657 0 0 0-.448-.182c-.179-.035-.5-.04-.816-.027l-.086.004V8a.5.5 0 0 1-1 0V1.75A.75.75 0 0 0 6.75 1zM8.5 4.466V1.75a1.75 1.75 0 0 0-3.5 0v5.34l-1.199.24a1.5 1.5 0 0 0-1.197 1.636l.345 3.106a2.5 2.5 0 0 0 .405 1.11l1.433 2.15A1.5 1.5 0 0 0 6.035 16h6.385a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.272-2.715a2 2 0 0 0-1.99-2.199h-.582a5.184 5.184 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.634 2.634 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046l-.048.002zm2.094 2.025z"/>
+            </svg>
+            <h4 class="section-header-header">Request</h4>
+            <p class="section-header-content">
+              Fill out a request form. We will reach out to you within 24 hours
+              to schedule a trial session
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 section-cards">
+            <svg class="bi bi-house-door" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z"/>
+              <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+            </svg>
+            <h4 class="section-header-header">Test for free</h4>
+            <p class="section-header-content">
+              Our tutor meets with your
+              child/ward for a mini lesson. Here learning goals and time table
+              mapped.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 section-cards">
+            <svg class="bi bi-cart-plus" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M8.5 5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 .5-.5z"/>
+              <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0v-2z"/>
+              <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+            </svg>
+            <h4 class="section-header-header">Pick a convinient plan</h4>
+            <p class="section-header-content">
+              We offer basic and premium monthly plans. Choose a convinient plan
+              and sign a commitment form.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--section:Our approach-->
       <section class="section-points">
         <h2 class="section-headers">Our approach</h2>
         <div class="row">
@@ -90,50 +131,24 @@
           </div>
           <div class="col-lg-4 col-md-4 col-sm-12 section-cards">
             <p class="section-header-content">
-              Stimulate the child's creativity in solving problems
+              Stimulate the child's creativity towards solving problems
             </p>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-12 section-cards">
             <p class="section-header-content">
-              Serve as exemplary models to the child
+              Serve as exemplary role models to the child
             </p>
           </div>
         </div>
       </section>
 
-      <section class="section-points">
-        <h2 class="section-headers" id='how it works'>How it works</h2>
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-12 section-cards">
-            <h4 class="section-header-header">Request</h4>
-            <p class="section-header-content">
-              Fill out a request form. We will reach out to you within 48 hours
-              to schedule a trial session
-            </p>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-12 section-cards">
-            <h4 class="section-header-header">Test for free</h4>
-            <p class="section-header-content">
-              The first session is free where our tutor meets with your
-              child/ward for a mini lesson. Here learning goals and time table
-              mapped.
-            </p>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-12 section-cards">
-            <h4 class="section-header-header">Pick a convinient plan</h4>
-            <p class="section-header-content">
-              We offer basic and premium monthly plans. Choose a convinient plan
-              and sign a commitment form.
-            </p>
-          </div>
-        </div>
-      </section>
-
+      
+            <!--section:Pricing-->
       <section>
         <h2 class="section-headers" id='pricing'>Pricing</h2>
 
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-4">
             <div class="card" style="width: 18rem;" data-aos="fade-right" data-aos-once="false" data-aos-delay="1000">
               <h3 class="section-header-header">
                 Free Trial
@@ -149,13 +164,13 @@
               </ul>
               <div class="card-body">
                 <div class="btn-center">
-                  <button class="btn btn-sm btn-primary">START FREE TRIAL</button>
+                <a href='/trialform'><button class="btn btn-sm btn-primary">START FREE TRIAL</button></a> 
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-4">
             <div class="card" style="width: 18rem;" data-aos="fade-down" data-aos-once="false" data-aos-delay="1500">
               <h3 class="section-header-header">
                 Basic Plan
@@ -173,13 +188,13 @@
 
               <div class="card-body">
                 <div class="btn-center">
-                  <button class="btn btn-sm btn-primary">SELECT BASIC PLAN</button>
+                  <a href='/trialform'><button class="btn btn-sm btn-primary">SELECT BASIC PLAN</button></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-4">
             <div class="card" style="width: 18rem;" data-aos="fade-left" data-aos-once="false" data-aos-delay="2000">
               <h3 class="section-header-header">
                 Premium Plan
@@ -196,13 +211,14 @@
               </ul>
               <div class="card-body">
                 <div class="btn-center">
-                  <button class="btn btn-sm btn-primary">SELECT PREMIUM PLAN</button>
+                  <a href='/trialform'> <button class="btn btn-sm btn-primary">SELECT PREMIUM PLAN</button></a>
                 </div>
               </div>
             </div>
           </div>
       </section>
 
+            <!--section:FAQ-->
       <section class="section-points">
         <h2 class="section-headers">FAQs</h2>
         <div class= 'row'>
@@ -211,7 +227,7 @@
               Can i request for more hours per month?
             </h5>
             <p>
-              Yes, you can. Extra hours still go for the same rate
+              Absolutely. Since we price per hour you are at liberty to negotiate an increase of tutor hours beyond the threshold of 20 hours.
             </p>
           </div>
 
@@ -267,39 +283,30 @@
 
       </section>
 
+            <!--footer-->
       <footer>
         <div class="row">
-          
-        
-          <div class="col-lg-4 col-md-12 col-sm-12 footer-body">
   
+          <div class="col-lg-4 col-md-12 col-sm-12 footer-body">
             <h4 class="section-header-header" id='footer-headers'>
                 childTutors
               </h4>
               <p class='section-header-content' id='footer-body'>
                childTutors is an online platform that connects parents with seasoned tutors
               </p>
-           
           </div>
   
-           
-        
           <div class="col-lg-4 col-md-4 col-sm-4 footer-body">
-  
             <h4 class="section-header-header" id='footer-headers'>
               Newsletter
             </h4>          
               <form action="/" method='POST'>
               <input type="text" name="" value="" placeholder="Email address">
-              
                 <button type="button" class="btn btn-sm btn-light">Submit</button>
-              
             </form>
-          
         </div>
   
         <div class="col-lg-4 col-md-4 col-sm-4 footer-body">
-  
           <h4 class="section-header-header" id='footer-headers'>
            Connect with us
           </h4>
@@ -313,6 +320,10 @@
       </footer>
     </div>
 
+
+
+
+    <script src='js/main.js'></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
